@@ -5,24 +5,34 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# =========================
 # Virtual Environment
+# =========================
 .venv/
 venv/
 env/
 ENV/
 
+# =========================
 # IDE
+# =========================
 .idea/
 .vscode/
 
+# =========================
 # OS Files
+# =========================
 .DS_Store
 Thumbs.db
 
+# =========================
 # Jupyter
+# =========================
 .ipynb_checkpoints/
 
+# =========================
 # TensorFlow / PyTorch Models
+# =========================
 *.h5
 *.keras
 *.ckpt
@@ -32,29 +42,33 @@ Thumbs.db
 *.pkl
 *.joblib
 
+# =========================
 # Logs
+# =========================
 *.log
 
-# Temporary files
+# =========================
+# Temporary Files
+# =========================
 *.tmp
 *.temp
 
-# Build
+# =========================
+# Build Files
+# =========================
 build/
 dist/
 *.egg-info/
 
-# Output folders
-outputs/
-
-# Local models
+# =========================
+# Local Model Directory
+# (Ignore only if it contains trained models)
+# =========================
 models/
 
+# =========================
 # Cache
+# =========================
 .cache/
-
-# pytest
 .pytest_cache/
-
-# mypy
 .mypy_cache/
