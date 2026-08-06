@@ -1,0 +1,60 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorFlow / PyTorch Models
+*.h5
+*.keras
+*.ckpt
+*.pb
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Output folders
+outputs/
+
+# Local models
+models/
+
+# Cache
+.cache/
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
