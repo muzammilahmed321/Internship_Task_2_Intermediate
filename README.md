@@ -1,327 +1,195 @@
 <div align="center">
 
-# 🧠 Deep Learning Projects Collection
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:00C2FF&height=200&section=header&text=Deep%20Learning%20Projects&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineering%20Internship%20Portfolio&descAlignY=55&descSize=18"/>
 
-### AI Engineering Internship Portfolio
+### *A growing collection of Deep Learning projects — built from scratch with TensorFlow, Keras & Python*
 
-*A collection of Deep Learning projects implemented using TensorFlow, Keras, and Python.*
-
----
+<br>
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv)
 ![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
 
 <br>
 
-![Status](https://img.shields.io/badge/Status-Under%20Development-yellow?style=for-the-badge)
-![Projects](https://img.shields.io/badge/Projects-Growing-success?style=for-the-badge)
-![Deep Learning](https://img.shields.io/badge/Focus-Deep%20Learning-blueviolet?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active%20Development-yellow?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Completed%20Projects-4-success?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-Deep%20Learning-blueviolet?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muzammil-ahmed-795527271/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/muzammilahmed321)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muzammilahmed1h2@gmail.com)
 
 </div>
 
 ---
 
-# 🌟 Welcome
+## 🌟 About This Repository
 
-Welcome to my **Deep Learning Projects Collection**.
+This repository documents my hands-on journey through **Deep Learning**, where I implement neural network architectures from the ground up using **TensorFlow** and **Keras** — following clean coding practices, object-oriented design, and professional project structure.
 
-This repository documents my journey through **Deep Learning**, where I implement different neural network architectures from scratch using **TensorFlow** and **Keras** while following clean coding practices, object-oriented programming, and modular project design.
+Every project follows the **same rigorous pipeline**: data preprocessing → model design → training → evaluation → visualization → model persistence → documentation. The goal isn't just working code — it's a portfolio that shows I understand *why* each piece exists.
 
-Each project demonstrates the complete workflow of building Deep Learning solutions—from data preprocessing and model development to training, evaluation, visualization, and model persistence.
-
-This repository is continuously expanding as I explore more advanced neural network architectures and modern AI techniques.
+> 💡 **Philosophy:** *Understand before optimizing.* Every model here is built from scratch rather than copy-pasted, so the underlying concepts — not just the accuracy score — are the real deliverable.
 
 ---
 
-# 📖 Table of Contents
+## 📊 Portfolio Snapshot
 
-- [About Repository](#-about-the-repository)
+<div align="center">
+
+| Project | Type | Dataset | Key Metric | Status |
+|:---|:---:|:---|:---:|:---:|
+| 🧠 [**ANN**](#-1-artificial-neural-network--customer-churn-prediction) — Customer Churn | Binary Classification | Churn Modelling (10K records) | **85.15%** Accuracy | ✅ |
+| 🖼 [**CNN**](#-2-convolutional-neural-network--cifar-10-image-classification) — Image Classification | Multi-Class Classification | CIFAR-10 (60K images) | **70.74%** Accuracy | ✅ |
+| ✈️ [**RNN**](#-3-recurrent-neural-network--airline-passenger-forecasting) — Passenger Forecasting | Time-Series Regression | AirPassengers (144 records) | **R² = 0.89** | ✅ |
+| 🌤️ [**LSTM**](#-4-lstm--karachi-temperature-prediction) — Temperature Prediction | Time-Series Regression | Pakistan Weather (Karachi) | **MAE = 3.42°C** | ✅ |
+
+</div>
+
+---
+
+## 📑 Table of Contents
+
+- [About This Repository](#-about-this-repository)
+- [Portfolio Snapshot](#-portfolio-snapshot)
 - [Objectives](#-objectives)
-- [Repository Highlights](#-repository-highlights)
-- [Current Projects](#-current-projects)
+- [Project Details](#-project-details)
+  - [1. ANN — Customer Churn Prediction](#-1-artificial-neural-network--customer-churn-prediction)
+  - [2. CNN — CIFAR-10 Image Classification](#-2-convolutional-neural-network--cifar-10-image-classification)
+  - [3. RNN — Airline Passenger Forecasting](#-3-recurrent-neural-network--airline-passenger-forecasting)
+  - [4. LSTM — Karachi Temperature Prediction](#-4-lstm--karachi-temperature-prediction)
+- [Repository Structure](#-repository-structure)
+- [Technology Stack](#-technology-stack)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Installation & Usage](#-installation--usage)
 - [Project Roadmap](#-project-roadmap)
-- [Repository Vision](#-repository-vision)
-- [Why This Repository?](#-why-this-repository)
+- [About Me](#-about-me)
+- [Connect With Me](#-connect-with-me)
 
 ---
 
-# 📚 About the Repository
+## 🎯 Objectives
 
-Deep Learning is one of the fastest-growing areas of Artificial Intelligence.
-
-The goal of this repository is to build a strong understanding of different Deep Learning architectures by implementing them from scratch rather than relying solely on pre-built solutions.
-
-Every project in this repository follows a consistent development pipeline:
-
-```
-
-Dataset
-
-↓
-
-Data Preprocessing
-
-↓
-
-Model Design
-
-↓
-
-Training
-
-↓
-
-Evaluation
-
-↓
-
-Performance Visualization
-
-↓
-
-Model Saving
-
-↓
-
-Documentation
-
-```
-
-Each project is organized independently with its own:
-
-- README
-- Source Code
-- Dataset
-- Trained Models
-- Output Visualizations
-- Performance Analysis
-
-making the repository easy to navigate, understand, and extend.
+✅ Learn Deep Learning concepts from fundamentals  &nbsp;&nbsp; ✅ Implement neural networks from scratch  &nbsp;&nbsp; ✅ Master TensorFlow & Keras
+✅ Follow Object-Oriented Programming  &nbsp;&nbsp; ✅ Practice clean, modular code  &nbsp;&nbsp; ✅ Compare architectures across domains
+✅ Build reusable AI components  &nbsp;&nbsp; ✅ Build a recruiter-ready AI portfolio  &nbsp;&nbsp; ✅ Continuously improve through experimentation
 
 ---
 
-# 🎯 Objectives
+## 📌 Project Details
 
-The primary objectives of this repository are:
+### 🧠 1. Artificial Neural Network — Customer Churn Prediction
 
-✅ Learn Deep Learning concepts from fundamentals
+Predicts whether a bank customer will **stay or churn** using a 4-layer fully connected neural network trained on 10,000 real-world customer records.
 
-✅ Implement Neural Networks from scratch
+<table>
+<tr><td>
 
-✅ Understand TensorFlow & Keras
+**Architecture:** `Input(11) → Dense(6, ReLU) → Dropout(0.2) → Dense(6, ReLU) → Dropout(0.2) → Dense(1, Sigmoid)`
 
-✅ Build reusable AI components
+**Concepts:** Data cleaning · One-hot & label encoding · Feature scaling · Dropout regularization · Binary classification · Confusion matrix · Classification report
 
-✅ Follow Object-Oriented Programming
+</td></tr>
+</table>
 
-✅ Practice clean code principles
+| Metric | Result |
+|:---|:---:|
+| Test Accuracy | **85.15%** |
+| Test Loss | 0.3571 |
+| Precision (macro) | 0.8388 |
+| Recall (macro) | 0.6626 |
+| F1-score (macro) | 0.6993 |
 
-✅ Compare different Deep Learning models
-
-✅ Learn optimization techniques
-
-✅ Build a professional AI portfolio
-
-✅ Continuously improve through experimentation
-
----
-
-# ✨ Repository Highlights
-
-✔ Clean and Modular Code
-
-✔ Object-Oriented Design
-
-✔ Well-Documented Projects
-
-✔ Beginner-Friendly Implementation
-
-✔ TensorFlow & Keras Based
-
-✔ Training Visualization
-
-✔ Model Saving
-
-✔ Performance Evaluation
-
-✔ Classification Reports
-
-✔ Confusion Matrices
-
-✔ Reproducible Experiments
-
-✔ GitHub Portfolio Ready
-
-✔ Academic & Internship Friendly
-
-✔ Easy to Extend
+📂 `src/ANN/` &nbsp;·&nbsp; 📄 [Full documentation](src/ANN/README.md)
 
 ---
 
-# 🚀 Current Projects
+### 🖼 2. Convolutional Neural Network — CIFAR-10 Image Classification
 
-| Project | Domain | Dataset | Status |
-|----------|---------|---------|--------|
-| 🧠 Artificial Neural Network (ANN) | Customer Churn Prediction | Churn Modelling Dataset | ✅ Completed |
-| 🖼 Convolutional Neural Network (CNN) | Image Classification | CIFAR-10 | ✅ Completed |
+Classifies **32×32 RGB images** into 10 categories (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck) using a CNN built from scratch.
 
----
+<table>
+<tr><td>
 
-# 📌 Project Details
+**Architecture:** `Conv2D(32) → MaxPool → Conv2D(64) → MaxPool → Flatten → Dense(128, ReLU) → Dropout(0.5) → Dense(10, Softmax)`
 
-## 🧠 Artificial Neural Network (ANN)
+**Concepts:** Image normalization · Convolution & pooling · Feature extraction · Dropout · Multi-class classification · Confusion matrix
 
-### Problem
+</td></tr>
+</table>
 
-Predict whether a customer will leave the bank or remain using customer information.
+| Metric | Result |
+|:---|:---:|
+| Test Accuracy | **70.74%** |
+| Test Loss | 0.8553 |
+| Training Images | 50,000 |
+| Testing Images | 10,000 |
 
-### Concepts Covered
-
-- Data Cleaning
-- Feature Engineering
-- Feature Scaling
-- Label Encoding
-- One-Hot Encoding
-- Artificial Neural Networks
-- Binary Classification
-- Model Evaluation
-- Confusion Matrix
-- Classification Report
+📂 `src/CNN/` &nbsp;·&nbsp; 📄 [Full documentation](src/CNN/README.md)
 
 ---
 
-## 🖼 Convolutional Neural Network (CNN)
+### ✈️ 3. Recurrent Neural Network — Airline Passenger Forecasting
 
-### Problem
+Forecasts **next-month airline passenger traffic** from the previous 12 months of historical data using a SimpleRNN.
 
-Classify images from the CIFAR-10 dataset into one of ten categories.
+<table>
+<tr><td>
 
-### Concepts Covered
+**Architecture:** `Input(12 months) → SimpleRNN(100, tanh) → Dense(1)`
 
-- Image Processing
-- CNN Architecture
-- Feature Extraction
-- Convolution Layers
-- Pooling Layers
-- Dropout
-- Image Classification
-- Model Evaluation
-- Prediction Visualization
+**Concepts:** Time-series sequence generation · MinMax normalization · Early stopping · Regression evaluation
 
----
+</td></tr>
+</table>
 
-# 📈 Repository Progress
+| Metric | Result |
+|:---|:---:|
+| R² Score | **0.8929** |
+| MAE | 21.05 passengers |
+| RMSE | 26.09 passengers |
+| Test Loss (MSE, scaled) | 0.0025 |
 
-| Model | Progress |
-|--------|----------|
-| ANN | 🟢 Completed |
-| CNN | 🟢 Completed |
-| RNN | 🟡 Planned |
-| LSTM | 🟡 Planned |
-| GRU | 🟡 Planned |
-| Autoencoder | 🟡 Planned |
-| GAN | 🟡 Planned |
-| Transfer Learning | 🟡 Planned |
-| Vision Transformer | 🟡 Planned |
-| Transformer | 🟡 Planned |
+📂 `src/RNN/` &nbsp;·&nbsp; 📄 [Full documentation](src/RNN/README.md)
 
 ---
 
-# 🗺 Project Roadmap
+### 🌤️ 4. LSTM — Karachi Temperature Prediction
 
-This repository will continue to grow with implementations of modern Deep Learning architectures.
+Predicts **next-day average temperature** for Karachi from 30 days of historical weather data — the most complex pipeline in the repo (14 engineered features, chronological splitting, dual scalers).
 
-### Completed
+<table>
+<tr><td>
 
-- ✅ Artificial Neural Network (ANN)
-- ✅ Convolutional Neural Network (CNN)
+**Architecture:** `Input(30×14) → LSTM(100) → Dropout(0.2) → LSTM(50) → Dropout(0.2) → Dense(25, ReLU) → Dense(1)`
 
-### Currently Planned
+**Concepts:** Time-based interpolation · Cyclic seasonal encoding · Lag & rolling features · Percentile outlier clipping · Chronological 70/15/15 split · Early stopping + LR scheduling
 
-- 🔄 Recurrent Neural Networks (RNN)
+</td></tr>
+</table>
 
-- 🧠 Long Short-Term Memory (LSTM)
+| Metric | Result |
+|:---|:---:|
+| MAE | 3.42 °C |
+| RMSE | 4.06 °C |
+| R² | -0.0003 *(baseline — optimization in progress)* |
+| Parameters | 77,501 |
 
-- 🔁 Gated Recurrent Unit (GRU)
-
-- 🎯 Transfer Learning
-
-- 👁 Vision Transformers (ViT)
-
-- 🤖 Transformers
-
-- 🏷 Autoencoders
-
-- 🎨 Generative Adversarial Networks (GAN)
-
-- 📈 Time Series Forecasting
-
-- 💬 Natural Language Processing
-
-- 🧾 Text Classification
-
-- 🎙 Speech Recognition
-
-- 🩺 Medical Image Classification
-
-- 🚗 Object Detection
-
-- 🛰 Image Segmentation
-
-- 🤖 Custom AI Architectures
+📂 `src/LSTM/` &nbsp;·&nbsp; 📄 [Full documentation](src/LSTM/README.md)
 
 ---
 
-# 🌍 Repository Vision
-
-The long-term vision of this repository is to become a complete Deep Learning portfolio that demonstrates practical implementations of modern neural network architectures across multiple AI domains including:
-
-- Computer Vision
-
-- Natural Language Processing
-
-- Time Series Analysis
-
-- Medical AI
-
-- Recommendation Systems
-
-- Generative AI
-
-- Transfer Learning
-
-- Intelligent Prediction Systems
-
-Rather than focusing only on benchmark accuracy, every project emphasizes learning, experimentation, clean architecture, and maintainable code.
-
----
-
-# 💡 Why This Repository?
-
-This repository is designed to help students, beginners, and recruiters understand how Deep Learning projects are developed in a structured and professional way.
-
-Every implementation follows industry-inspired practices such as:
-
-- Modular project organization
-- Reusable components
-- Documentation-first development
-- Performance evaluation
-- Visualization
-- Maintainable code
-- Experiment-friendly design
-
----
-# 🏗 Repository Structure
-
-The repository follows a clean, modular, and scalable architecture to keep every project independent while maintaining a consistent layout.
+## 🏗 Repository Structure
 
 ```text
 Deep_Learning_Projects
@@ -329,576 +197,172 @@ Deep_Learning_Projects
 ├── 📂 datasets
 │   ├── Churn_Modelling.csv
 │   ├── CIFAR-10
-│   └── Future Datasets
+│   ├── pakistan_weather_2000_2024.csv
+│   └── AirPassengers.csv
 │
 ├── 📂 models
-│   ├── ANN
-│   ├── CNN
-│   ├── RNN
-│   ├── LSTM
-│   ├── GRU
-│   ├── Transfer_Learning
-│   └── ...
+│   ├── ANN/  CNN/  RNN/  LSTM/  ...
 │
 ├── 📂 outputs
-│   ├── ANN
-│   ├── CNN
-│   ├── RNN
-│   ├── LSTM
-│   └── ...
+│   ├── ANN/  CNN/  RNN/  LSTM/  ...
 │
 ├── 📂 reports
 │
 ├── 📂 src
-│   │
-│   ├── ANN
-│   │   ├── README.md
-│   │   ├── Main_ANN.py
-│   │   ├── ANN_Model.py
-│   │   ├── ANN_Training.py
-│   │   └── ANN_Evaluation.py
-│   │
-│   ├── CNN
-│   │   ├── README.md
-│   │   ├── cnn_main.py
-│   │   ├── CNN_Model.py
-│   │   ├── CNN_Training.py
-│   │   └── CNN_Evaluation.py
-│   │
-│   ├── RNN
-│   ├── LSTM
-│   ├── GRU
-│   ├── GAN
-│   ├── ViT
+│   ├── ANN/   { Main_ANN.py, ANN_Model.py, ANN_Training.py, ANN_Evaluation.py, README.md }
+│   ├── CNN/   { cnn_main.py, CNN_Model.py, CNN_Training.py, CNN_Evaluation.py, README.md }
+│   ├── RNN/   { RNN_Main.py, RNN_Model.py, RNN_Training.py, RNN_Evaluation.py, README.md }
+│   ├── LSTM/  { Data/, LSTM/, Main/, outputs/, README.md }
 │   └── ...
 │
 ├── requirements.txt
-│
 ├── LICENSE
-│
 └── README.md
 ```
 
 ---
 
-# ⚙ Technology Stack
+## ⚙ Technology Stack
 
 <div align="center">
-
-## Languages & Frameworks
 
 <img src="https://skillicons.dev/icons?i=python,tensorflow,git,github,vscode" />
 
 </div>
 
----
-
-## Programming Language
-
-- 🐍 Python
-
----
-
-## Deep Learning
-
-- TensorFlow
-- Keras
+| Category | Tools |
+|:---|:---|
+| **Language** | Python |
+| **Deep Learning** | TensorFlow, Keras |
+| **Machine Learning** | Scikit-Learn |
+| **Data Processing** | NumPy, Pandas |
+| **Visualization** | Matplotlib |
+| **Computer Vision** | OpenCV |
+| **Dev Tools** | Git, GitHub, VS Code |
 
 ---
 
-## Machine Learning
+## 🧠 Skills Demonstrated
 
-- Scikit-Learn
+<table>
+<tr>
+<td width="33%" valign="top">
 
----
+**Programming**
+- Python
+- Object-Oriented Design
+- Modular Architecture
 
-## Data Processing
+</td>
+<td width="33%" valign="top">
 
-- NumPy
-- Pandas
-
----
-
-## Visualization
-
-- Matplotlib
-
----
-
-## Computer Vision
-
-- OpenCV
-
----
-
-## Development Tools
-
-- Git
-- GitHub
-- VS Code
-
----
-
-# 🧠 Skills Demonstrated
-
-Throughout this repository, the following technical skills are demonstrated:
-
-### Programming
-
-- Python Programming
-- Object-Oriented Programming
-- Modular Programming
-
----
-
-### Data Processing
-
-- Data Cleaning
-
-- Feature Engineering
-
+**Data Engineering**
+- Cleaning & Encoding
 - Feature Scaling
+- Lag / Rolling / Seasonal Features
+- Outlier Handling
 
-- Label Encoding
+</td>
+<td width="33%" valign="top">
 
-- One-Hot Encoding
+**Deep Learning**
+- ANN, CNN, RNN, LSTM
+- Dropout & Regularization
+- Early Stopping / LR Scheduling
+- Model Evaluation & Saving
 
-- Image Normalization
-
----
-
-### Machine Learning
-
-- Dataset Preparation
-
-- Model Evaluation
-
-- Performance Metrics
-
-- Classification Reports
-
-- Confusion Matrix
+</td>
+</tr>
+</table>
 
 ---
 
-### Deep Learning
-
-- Artificial Neural Networks
-
-- Convolutional Neural Networks
-
-- Model Compilation
-
-- Model Training
-
-- Model Saving
-
-- Prediction
-
-- Dropout
-
-- Activation Functions
-
-- Optimization
-
----
-
-### Software Engineering
-
-- Clean Code
-
-- Project Structure
-
-- Documentation
-
-- Version Control
-
-- Reusable Components
-
----
-
-# 📦 Installation
-
-## 1️⃣ Clone Repository
+## 📦 Installation & Usage
 
 ```bash
-git clone https://github.com/your-username/Deep-Learning-Projects.git
-```
-
----
-
-## 2️⃣ Navigate to Project
-
-```bash
+# 1. Clone the repository
+git clone https://github.com/muzammilahmed321/Deep-Learning-Projects.git
 cd Deep-Learning-Projects
-```
 
----
-
-## 3️⃣ Create Virtual Environment
-
-Windows
-
-```bash
+# 2. Create & activate a virtual environment
 python -m venv .venv
-```
+.venv\Scripts\activate        # Windows
+source .venv/bin/activate     # Linux / macOS
 
----
-
-## 4️⃣ Activate Environment
-
-Windows
-
-```bash
-.venv\Scripts\activate
-```
-
-Linux / macOS
-
-```bash
-source .venv/bin/activate
-```
-
----
-
-## 5️⃣ Install Dependencies
-
-```bash
+# 3. Install dependencies
 pip install -r requirements.txt
 ```
 
----
-
-# ▶ Running Projects
-
----
-
-## ANN Project
+**Run any project:**
 
 ```bash
-cd src/ANN
-python Main_ANN.py
+cd src/ANN   && python Main_ANN.py       # Customer Churn
+cd src/CNN   && python cnn_main.py       # CIFAR-10
+cd src/RNN   && python RNN_Main.py       # Passenger Forecasting
+cd src/LSTM/Main && python Main_LSTM.py  # Temperature Prediction
 ```
 
 ---
 
-## CNN Project
+## 🗺 Project Roadmap
 
-```bash
-cd src/CNN
-python cnn_main.py
-```
-
----
-
-Future projects will follow the same structure.
-
----
-
-# 📂 Folder Description
-
-| Folder | Description |
-|----------|-------------|
-| datasets | Stores datasets used by projects |
-| models | Stores trained Deep Learning models |
-| outputs | Generated graphs, predictions, reports |
-| reports | Internship reports & documentation |
-| src | Source code for every model |
-| README.md | Repository documentation |
+| Model | Status |
+|:---|:---:|
+| Artificial Neural Network (ANN) | 🟢 Completed |
+| Convolutional Neural Network (CNN) | 🟢 Completed |
+| Recurrent Neural Network (RNN) | 🟢 Completed |
+| Long Short-Term Memory (LSTM) | 🟢 Completed |
+| Gated Recurrent Unit (GRU) | 🟡 Planned |
+| Transfer Learning (ResNet / VGG / MobileNet) | 🟡 Planned |
+| Autoencoders | 🟡 Planned |
+| Generative Adversarial Networks (GAN) | 🟡 Planned |
+| Vision Transformers (ViT) | 🟡 Planned |
+| NLP / Text Classification | 🟡 Planned |
+| Object Detection & Image Segmentation | 🟡 Planned |
 
 ---
 
-# 📈 Repository Statistics
+## 💡 Why This Repository?
 
-| Category | Current |
-|-----------|----------|
-| Completed Projects | 2 |
-| Planned Projects | 10+ |
-| Deep Learning Models | Growing |
-| Programming Language | Python |
-| Framework | TensorFlow / Keras |
+Every project follows industry-inspired practices: modular structure, reusable components, documentation-first development, and honest performance reporting — including a baseline model that still needs tuning (the LSTM). That's intentional: recruiters can see not just results, but the full engineering process, including where the next iteration is headed.
 
 ---
 
-# 🎓 Learning Outcomes
+## 👨‍💻 About Me
 
-Working on these projects helped develop practical understanding of:
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=650&lines=Muzammil+Ahmed;AI+Engineering+Intern;Deep+Learning+Enthusiast;Computer+Vision+%26+Time-Series+Learner;Building+AI+Projects+with+TensorFlow"/>
+</div>
 
-✅ Neural Networks
+I'm **Muzammil Ahmed**, a Computer Science undergraduate at **NED University of Engineering & Technology, Karachi**, with a strong interest in Artificial Intelligence, Machine Learning, and Deep Learning. I enjoy building practical AI applications end-to-end — from raw data to a trained, evaluated, and documented model — and continuously expanding my skills through hands-on projects.
 
-✅ Image Classification
+**🎓 Education:** BS Computer Science, NED University of Engineering & Technology, Karachi, Pakistan
 
-✅ Binary Classification
-
-✅ Feature Engineering
-
-✅ Deep Learning Workflow
-
-✅ TensorFlow
-
-✅ Keras
-
-✅ Computer Vision
-
-✅ Performance Evaluation
-
-✅ AI Project Organization
+**💻 Areas of Interest:** Artificial Intelligence · Deep Learning · Machine Learning · Computer Vision · Time-Series Forecasting · Full Stack Development
 
 ---
 
-# 🚀 Future Improvements
-
-The repository will continue expanding with more advanced implementations.
-
-Planned improvements include:
-
-- Data Augmentation
-
-- Hyperparameter Tuning
-
-- Batch Normalization
-
-- Learning Rate Scheduler
-
-- Early Stopping
-
-- TensorBoard
-
-- Model Checkpointing
-
-- Residual Networks
-
-- EfficientNet
-
-- MobileNet
-
-- ResNet
-
-- VGG
-
-- Inception
-
-- Transfer Learning
-
-- Transformers
-
-- Vision Transformers
-
-- Diffusion Models
-
-- GANs
-
-- Autoencoders
-
-- NLP Models
-
----
-
-# 💭 Repository Philosophy
-
-This repository is built with one simple philosophy:
-
-> **Understand before optimizing.**
-
-Rather than downloading large pre-trained models without understanding them, every project focuses on implementing the complete Deep Learning pipeline from scratch.
-
-Accuracy is important, but understanding the underlying concepts, writing clean code, and developing reusable AI systems are the primary goals.
-
-As the repository evolves, more advanced optimization techniques and state-of-the-art architectures will be integrated while maintaining readability and modularity.
-
----
-# 👨‍💻 Contributor
+## 📬 Connect With Me
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Muzammil+Ahmed;AI+Engineering+Student;Deep+Learning+Enthusiast;Computer+Vision+Learner;Building+AI+Projects+with+TensorFlow"/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muzammil-ahmed-795527271/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/muzammilahmed321)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muzammilahmed1h2@gmail.com)
 
 </div>
 
 ---
 
-## About Me
+## 📜 License
 
-Hi! I'm **Muzammil Ahmed**, a passionate Computer Science student with a strong interest in **Artificial Intelligence**, **Machine Learning**, and **Deep Learning**.
-
-I enjoy building practical AI applications, experimenting with neural network architectures, and continuously expanding my knowledge through hands-on projects.
-
-This repository serves as my learning portfolio where I document my progress while implementing modern Deep Learning models using clean, modular, and well-documented code.
-
----
-
-## 🎓 Education
-
-**Bachelor of Science in Computer Science (BSCS)**
-
-**NED University of Engineering & Technology**
-
-Karachi, Pakistan
-
----
-
-## 💻 Areas of Interest
-
-- Artificial Intelligence
-- Deep Learning
-- Machine Learning
-- Computer Vision
-- Neural Networks
-- Image Classification
-- Transfer Learning
-- Natural Language Processing
-- Time Series Forecasting
-- Python Development
-
----
-
-# 🛠 Technical Skills
-
-| Category | Skills |
-|----------|---------|
-| Programming | Python |
-| Deep Learning | TensorFlow, Keras |
-| Machine Learning | Scikit-Learn |
-| Data Analysis | NumPy, Pandas |
-| Visualization | Matplotlib |
-| Computer Vision | OpenCV |
-| Version Control | Git, GitHub |
-| IDE | Visual Studio Code |
-
----
-
-# 📖 Repository Documentation
-
-Each project contains its own detailed documentation.
-
-| Folder | Description |
-|----------|-------------|
-| `src/ANN/README.md` | Complete documentation for Artificial Neural Network |
-| `src/CNN/README.md` | Complete documentation for Convolutional Neural Network |
-
-Future projects will include their own dedicated README files to maintain consistency and improve project organization.
-
----
-
-# 📊 Current Repository Status
-
-| Category | Status |
-|-----------|--------|
-| Repository | 🟢 Active Development |
-| Documentation | 🟢 Available |
-| ANN | ✅ Completed |
-| CNN | ✅ Completed |
-| RNN | 🚧 Planned |
-| LSTM | 🚧 Planned |
-| Transfer Learning | 🚧 Planned |
-| Vision Transformers | 🚧 Planned |
-
----
-
-# 🤝 Contributing
-
-Contributions, ideas, and suggestions are always welcome.
-
-If you would like to contribute:
-
-1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Push your branch.
-5. Open a Pull Request.
-
-Constructive feedback and improvements are greatly appreciated.
-
----
-
-# ⭐ Support
-
-If you found this repository useful or learned something from it, consider supporting the project by:
-
-⭐ Starring the repository
-
-🍴 Forking the repository
-
-📢 Sharing it with others
-
-Your support motivates me to continue building more Deep Learning projects and improving this repository.
-
----
-
-# 🚀 Future Vision
-
-The goal of this repository is to become a comprehensive Deep Learning portfolio covering both fundamental and advanced neural network architectures.
-
-Future additions include:
-
-- Recurrent Neural Networks (RNN)
-- Long Short-Term Memory (LSTM)
-- Gated Recurrent Units (GRU)
-- Transfer Learning
-- Autoencoders
-- Generative Adversarial Networks (GANs)
-- Vision Transformers (ViT)
-- Transformers
-- Diffusion Models
-- Image Segmentation
-- Object Detection
-- Medical Image Analysis
-- Natural Language Processing
-- Time Series Forecasting
-- Recommendation Systems
-- Real-World AI Applications
-
-The repository will continue evolving as I learn new concepts and complete additional projects.
-
----
-
-# 📜 License
-
-This project is licensed under the **MIT License**.
-
-You are free to use, modify, and distribute the code while providing appropriate credit.
-
----
-
-# 📬 Connect With Me
-
-<div align="center">
-
-### Let's Connect!
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-github-username)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-
-</div>
-
-> Replace the placeholders above with your actual GitHub username, LinkedIn profile URL, and email address.
-
----
-
-# 🙏 Acknowledgements
-
-Special thanks to:
-
-- TensorFlow & Keras developers
-- The Python open-source community
-- Scikit-Learn contributors
-- OpenCV contributors
-- Everyone sharing knowledge through tutorials, blogs, and documentation
-
-Their resources have been invaluable throughout my learning journey.
+This repository is licensed under the **MIT License** — free to use, modify, and distribute with appropriate credit.
 
 ---
 
 <div align="center">
 
-## 🌟 Thank You for Visiting!
-
-If you enjoyed exploring this repository, don't forget to leave a ⭐.
-
-### 🚀 Happy Learning and Happy Coding!
+### ⭐ If this repository helped you, consider giving it a star!
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:00C2FF&height=120&section=footer"/>
 
